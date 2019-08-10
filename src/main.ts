@@ -1,3 +1,5 @@
 import "../styles/main.css";
-import "./hello-world/hello-world";
-import "./my-element/my-element";
+
+// Components
+import "./app-container/app-container.component";
+import "./todo-list/todo-list.component";
