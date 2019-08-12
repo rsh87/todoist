@@ -18,6 +18,10 @@ export default {
       targets: [
         { src: "src/index.html", dest: "dist" },
         {
+          src: "fonts",
+          dest: "dist"
+        },
+        {
           src:
             "node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js",
           dest: "dist"
@@ -26,11 +30,10 @@ export default {
       copyOnce: true
     }),
     typescript({ objectHashIgnoreUnknownHack: true }),
-    postcss({ plugins: [postcssImport] }),
+    postcss({ plugins: [postcssImport], extract: true }),
     resolve(),
     serve({
-      contentBase: "dist",
-      open: true
+      contentBase: "dist"
     }),
     livereload({ watch: "dist" })
   ]

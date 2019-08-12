@@ -1,5 +1,5 @@
 import "../styles/main.css";
 
 // Components
-import "./app-container/app-container.component";
-import "./todo-list/todo-list.component";
+import "./components/app-container/app-container.component";
+import "./components/todo-list/todo-list.component";

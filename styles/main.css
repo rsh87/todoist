@@ -1,1 +1,7 @@
-@import './global/global.css';
+/* GLOBAL */
+@import "./global/fonts.css";
+@import "./global/variables.css";
+@import "./global/global.css";
+
+/* Components */
+@import "./components/todo-list.css";

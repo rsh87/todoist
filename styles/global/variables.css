@@ -1,0 +1,18 @@
+:root {
+  /* Colors */
+  --main-light: #f3f3f3;
+  --ocean-darkblue: #203a69;
+  --ocean-blue: #345da7;
+  --ocean-lightblue: #3b8ac4;
+  --ocean-turkish: #4bb4de;
+  --ocean-creme: #efdbcb;
+
+  /* Fonts */
+  --main-font: "SourceSansPro-Regular";
+
+  /* Box shadow */
+  --main-boxshadow: 0 25px 40px -20px #3c4a56;
+
+  /* Transition */
+  --main-transition: 0.3s ease;
+}
