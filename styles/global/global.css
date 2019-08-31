@@ -4,7 +4,12 @@ html {
 }
 
 body {
-  background: var(--ocean-darkblue);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+body.loading {
+  opacity: 0;
+  transform: translateY(60px);
 }
 
 *,
@@ -26,7 +31,7 @@ ul {
   margin: 0;
   padding: 0;
   font-weight: normal;
-  font-family: "source_sans_proregular", serif;
+  font-family: var(--main-font);
 }
 
 ol,
@@ -37,4 +42,8 @@ ul {
 img {
   max-width: 100%;
   height: auto;
+}
+
+#outlet {
+  height: 100%;
 }

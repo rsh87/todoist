@@ -14,12 +14,15 @@ export class TodoList extends LitElement {
     return html`
       ${styling}
       <div class="todo-list">
-        <p>wASUP</p>
+        <p>This</p>
         <ul>
           ${this.todos.map(
             todo =>
               html`
-                <li><p>${todo.name}</p></li>
+                <li>
+                  <p>${todo.name}</p>
+                  n
+                </li>
               `
           )}
         </ul>
